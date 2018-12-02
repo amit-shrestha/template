@@ -1,0 +1,58 @@
+.header-wrapper-top{
+  background-color: #e6e6e6;
+}
+.phone-div{
+  background: url("../images/phone.png") no-repeat;
+  background-position: left;
+  font-family: "Open Sans";
+  font-style: regular;
+  font-size: 10px;
+}
+.nav-menu a{
+  display: none;
+}
+.nav-menu.clicked a{
+  display: block;
+}
+.nav-menu{
+  text-align: center;
+  font-family: "Open Sans";
+  font-style: regular;
+  font-size: 10px;
+}
+.nav-menu li{
+  display: block;
+}
+.nav-menu a{
+  text-decoration: none;
+  color: black;
+}
+.nav-menu li:hover{
+  background-color: white;
+}
+.search-bar{
+  font-size: 10px;
+  border: 1px solid #e6e6e6;
+}
+.search-bar input{
+  border: none;
+  line-height: 20px;
+  background: url("../images/search-bar-placeholder.png") no-repeat;
+  background-position: left;
+  background-size: 120px; 
+}
+.search-btn{
+  background: url("../images/search.png") no-repeat;
+  background-size: 12px;
+}
+.mycart input{
+  font-family: "Open Sans";
+  font-weight: italic;
+  border: none;
+}
+.mycart{
+  border: 1px solid #e6e6e6;
+  background: url("../images/cart.png") no-repeat;
+  background-size: 60px 20px;
+}
+
