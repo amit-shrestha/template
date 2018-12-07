@@ -43,10 +43,10 @@
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  background-color: lightgreen;
+  background-color: #e6e6e6;
   display: inline-block;
   margin-left: 10px;
 }
 .dot:hover, .active:hover{
-  background-color: blue;
+  background-color: #6a6b73;
 }

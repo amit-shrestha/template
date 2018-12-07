@@ -28,8 +28,8 @@
   text-decoration: none;
   color: black;
 }
-.nav-menu li:hover{
-  background-color: white;
+.nav-menu li:hover a{
+  text-decoration: underline;
 }
 .search-bar{
   font-size: 10px;

@@ -1,6 +1,6 @@
 
 function imageCarousel(sliderContainer, width, height, wait, animationDelay){
-  var mainContainer = document.getElementsByClassName('body-top')[0];
+  var mainContainer = document.getElementsByClassName('carousel')[0];
 
   var slider = document.getElementById(sliderContainer);
   var images = slider.getElementsByTagName('img');
