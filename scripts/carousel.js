@@ -1,10 +1,12 @@
 
-function imageCarousel(sliderContainer, width, height, wait, animationDelay){
+function imageCarousel(sliderContainer, wait, animationDelay){
   var mainContainer = document.getElementsByClassName('carousel')[0];
-
   var slider = document.getElementById(sliderContainer);
   var images = slider.getElementsByTagName('img');
-  
+  var width = slider.offsetWidth;
+  console.log(width);
+  var height = slider.offsetHeight;
+  console.log(height);
   var container = document.createElement('div');
   container.setAttribute('id', 'slider-container-wrapper');
   container.appendChild(slider); 
@@ -141,4 +143,4 @@ function imageCarousel(sliderContainer, width, height, wait, animationDelay){
   }
 
 }
-imageCarousel('slider-container', 1365, 544, 1000, 7);
+imageCarousel('slider-container', 1000, 7);
