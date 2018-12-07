@@ -1,3 +1,4 @@
+/* Header Layout */
 .header-wrapper{
   width: 100%;
   line-height: 42px;
@@ -43,3 +44,166 @@
   float: right;
   margin-top: 10px;
 }
+
+/* Body Layout */
+.body-wrapper{
+  width: 100%;
+}
+.body-fixed{
+  width: 93%;
+  margin: 0 auto;
+}
+.body-top{
+  margin-top: 10px;
+}
+.carousel{
+  width: 100%;
+  height: 544px;
+  background-color: #e6e6e6;
+  margin: 0 auto;
+}
+.long-banner{
+  width: 100%;
+  height: 82px;
+  margin-top: 10px;
+}
+.featured-products, .new-products{
+  margin-top: 10px;
+}
+.name{
+  float: left;
+}
+.buttons{
+  float: right;
+}
+.left-arrow{
+  height: 20px;
+}
+.right-arrow{
+  height: 20px;
+}
+.featured-products-details{
+  margin-top: 10px;
+}
+.featured-product, .new-product{
+  width: 234px;
+  margin: 10px auto 0 auto;
+}
+.product-name{
+  margin-top: 10px;
+}
+.product-price{
+  margin-top: 9px;
+}
+.add-to-cart{
+  width: 116px;
+  line-height: 38px;
+  margin: 14px auto 0px auto;
+}
+.body-mid{
+  width: 100%;
+  margin-top: 30px;
+  padding-bottom: 26px;
+}
+.blog{
+  margin: 0 auto;
+}
+.blogs .name{
+  width: 100%;
+}
+.blog-image{
+  width: 287px;
+  margin: 0 auto;
+}
+.blog-info{
+  width: 290px;
+  margin: 0 auto;
+}
+.blogs{
+  padding-top: 12px;
+}
+.blogs-detail{
+  margin-top: 24px;
+}
+.banner ul{
+  text-align: center;
+  list-style: none;
+}
+.banner ul li{
+  margin-top: 10px;
+  display: inline-block;
+}
+
+/* Footer Layout */
+.footer-top{
+  padding-bottom: 58px;
+}
+.quick-contact{
+  padding-top: 20px;
+  float: left;
+}
+.address{
+  padding-left: 22px;
+  margin-top: 25px;
+}
+.mail-us{
+  padding-left: 22px;
+  margin-top: 15px;
+}
+.phone{
+  padding-left: 22px;
+  margin-top: 15px;
+}
+.address h4{
+  padding-bottom: 5px;
+}
+.mail-us h4{
+  padding-bottom: 5px;
+}
+.phone h4{
+  padding-bottom: 5px;
+}
+.quick-link{
+  float: left;
+  padding-top: 20px;
+}
+.info ul{
+  margin-top: 15px;
+}
+.info ul li{
+  list-style: none;
+  line-height: 33px;
+}
+.my-account{
+  float: left;
+  clear: left;
+  padding-top: 20px;
+}
+.footer-newsletter{
+  float: left;
+  padding-top: 20px;
+  clear: left;
+}
+.footer-email input{
+  margin-top: 15px;
+  width: 285px;
+  line-height: 38px;
+  padding-left: 38px;
+}
+.footer-form a{
+  margin-top: 14px;
+  line-height: 38px;
+  width: 98px;
+}
+.footer-bottom-right{
+  margin-top: 10px;
+  text-align: center;
+}
+.footer-bottom-left{
+  margin-top: 22px;
+}
+.payment-option{
+  margin-top: 10px;
+}
+
+

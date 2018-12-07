@@ -1,0 +1,52 @@
+#slider-container-wrapper{
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+}
+#slider-container{
+  position: absolute;
+}
+#slider-container img{
+  float: left;
+  display: block;
+}
+#lbtn{
+  z-index: 1;
+  position: absolute;
+  height: 35px;
+  width: 54px;
+  top: 46%;
+}
+#rbtn{
+  z-index: 1;
+  position: absolute;
+  height: 35px;
+  width: 54px;
+  top: 46%;
+  right: 0%;
+}
+#dots{
+  z-index: 1;
+  position: absolute;
+  top: 94%;
+  right: 44%;
+}
+.dot{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: lightgrey;
+  display: inline-block;
+  margin-left: 10px;
+}
+.active{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  display: inline-block;
+  margin-left: 10px;
+}
+.dot:hover, .active:hover{
+  background-color: blue;
+}
