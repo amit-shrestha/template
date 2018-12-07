@@ -4,9 +4,7 @@ function imageCarousel(sliderContainer, wait, animationDelay){
   var slider = document.getElementById(sliderContainer);
   var images = slider.getElementsByTagName('img');
   var width = slider.offsetWidth;
-  console.log(width);
   var height = slider.offsetHeight;
-  console.log(height);
   var container = document.createElement('div');
   container.setAttribute('id', 'slider-container-wrapper');
   container.appendChild(slider); 
@@ -26,8 +24,6 @@ function imageCarousel(sliderContainer, wait, animationDelay){
 
   for(var i=0;i<images.length;i++){
     images[i].setAttribute('class', 'images');
-    images[i].style.width = width+'px';
-    images[i].style.height = height+'px';
     var dot = document.createElement('span');
     dot.setAttribute('class', 'dot');
     dot.setAttribute('id', i);
@@ -46,11 +42,6 @@ function imageCarousel(sliderContainer, wait, animationDelay){
   container.appendChild(dotsBtn);
   
   mainContainer.appendChild(container);
-
-  container.style.width = width+'px';
-  container.style.height = height+'px';
-  slider.style.width = width*images.length+'px';
-  slider.style.height = height+'px';
 
   nextBtn.addEventListener('click', function(){
     nextBtnClicked();
@@ -72,6 +63,8 @@ function imageCarousel(sliderContainer, wait, animationDelay){
   init();
 
   function slide(){
+    width = slider.offsetWidth/3;
+    console.log(x, width);
     slider.style.left = x+'px';
     updateDotColor();
     if(x==((images.length-1)*width*change)){
