@@ -45,17 +45,8 @@
   .long-banner{
     margin-top: 15px;
   }
-  .featured-products, .new-products{
-    margin-top: 15px;
-  }
   .name{
     font-size: 15px;
-  }
-  .featured-products-details, .new-products-details{
-    margin-top: 15px;
-  }
-  .featured-product, .new-product{
-    margin-top: 15px; 
   }
   .blog-heading{
     font-size: 15px;
@@ -128,9 +119,6 @@
   .long-banner{
     margin-top: 20px;
   }
-  .featured-products, .new-products{
-    margin-top: 16px;
-  }
   .name{
     font-size: 16px;
   }
@@ -139,20 +127,6 @@
   }
   .right-arrow{
     height: 25px;
-  }
-  .featured-product, .new-product{
-    margin-left: 10px;
-    margin-right: 10px;
-    float: left;
-  }
-  .featured-products-details :nth-child(1), .new-products-details :nth-child(1){
-    margin-left: 0;
-  }
-  .featured-products-details :nth-child(5), .new-products-details :nth-child(5){
-    margin-right: 0;
-  }
-  .featured-product, .new-product{
-    margin-top: 20px;
   }
   .blog{
     float: left;
@@ -254,16 +228,14 @@
   .tabs li a{
     font-size: 16px;
   }
-  #slider-container-wrapper{
-    padding-bottom: 28.6%;
-  }
   .long-banner{
     margin-top: 24px;
   }
   .featured-products{
-    margin-top: 14px;
+    margin-top: 13px;
   }
   .featured-products-meta, .new-products-meta{
+    margin-top: 0px;
     padding-bottom: 3px;
   }
   .name{
@@ -284,12 +256,20 @@
   }
   .featured-product, .new-product{
     margin-top: 0px;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+  .featured-products-details :nth-child(1), .new-products-details :nth-child(1){
+    margin-left: 0px;
+  }
+  .featured-products-details :nth-child(5), .new-products-details :nth-child(5){
+    margin-right: 0px;
   }
   .new-products{
-    margin-top: 42px;
+    margin-top: 30px;
   }
   .body-mid{
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .blogs{
     padding-top: 12px;

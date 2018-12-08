@@ -64,7 +64,6 @@ function imageCarousel(sliderContainer, wait, animationDelay){
 
   function slide(){
     width = slider.offsetWidth/3;
-    console.log(x, width);
     slider.style.left = x+'px';
     updateDotColor();
     if(x==((images.length-1)*width*change)){
@@ -85,7 +84,7 @@ function imageCarousel(sliderContainer, wait, animationDelay){
   }
 
   function init(){
-    mainInterval = setInterval(slide, animationDelay);
+    // mainInterval = setInterval(slide, animationDelay);
   }
 
   function nextBtnClicked(){
