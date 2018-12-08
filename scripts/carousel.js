@@ -84,7 +84,7 @@ function imageCarousel(sliderContainer, wait, animationDelay){
   }
 
   function init(){
-    // mainInterval = setInterval(slide, animationDelay);
+    mainInterval = setInterval(slide, animationDelay);
   }
 
   function nextBtnClicked(){
