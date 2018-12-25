@@ -259,10 +259,10 @@
     margin-left: 9px;
     margin-right: 9px;
   }
-  .featured-products-details :first-child, .new-products-details :first-child{
+  .featured-product:first-child, .new-product:first-child{
     margin-left: 0px;
   }
-  .featured-products-details:last-child, .new-products-details:last-child{
+  .featured-product:last-child, .new-product:last-child{
     margin-right: 0px;
   }
   .new-products{
