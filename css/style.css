@@ -1,120 +1,114 @@
 /* Header Style */
-.header-wrapper-top{
+.header-wrapper-top {
   background-color: #e6e6e6;
 }
-.phone-div{
-  background: url("../images/phone.png") no-repeat;
+.phone-div {
+  background: url('../images/phone.png') no-repeat;
   background-position: left;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-size: 10px;
 }
-.nav-menu a{
+.nav-menu a {
   display: none;
 }
-.nav-menu.clicked a{
+.nav-menu.clicked a {
   display: block;
 }
-.nav-menu{
+.nav-menu {
   text-align: center;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-size: 10px;
 }
-.nav-menu li{
+.nav-menu li {
   display: block;
 }
-.nav-menu a{
+.nav-menu a {
   text-decoration: none;
   color: black;
 }
-.nav-menu li:hover a{
+.nav-menu li:hover a {
   text-decoration: underline;
 }
-.search-bar{
-  font-size: 10px;
+.search-bar {
+  font-size: 9px;
   border: 1px solid #e6e6e6;
 }
-.search-bar input{
+.search-bar input {
   border: none;
-  line-height: 20px;
-  background: url("../images/search-bar-placeholder.png") no-repeat;
-  background-position: left;
-  background-size: 120px; 
 }
-.search-btn{
-  background: url("../images/search.png") no-repeat;
+.search-btn {
+  background: url('../images/search.png') no-repeat;
   background-size: 12px;
 }
-.mycart input{
-  font-family: "Open Sans";
+.mycart input {
+  font-family: 'Open Sans';
   border: none;
 }
-.mycart{
+.mycart {
   border: 1px solid #e6e6e6;
-  background: url("../images/cart.png") no-repeat;
+  background: url('../images/cart.png') no-repeat;
   background-size: 60px 20px;
   cursor: pointer;
 }
 
 /* Body Style */
 
-.tabs li{
- display: inline-block;
- background-color: #e6e6e6;
- padding-left: 2px;
- padding-right: 2px; 
- text-align: center;
-}
-.tabs li a{
-  text-decoration: none;
+.tabs a li {
+  display: inline-block;
+  background-color: #e6e6e6;
+  text-align: center;
   color: black;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: bold;
+}
+.tabs a {
   font-size: 9px;
 }
-.tabs li:hover{
-  background-color: #e6e6e6 ;
+.tabs li:hover {
+  background-color: #e6e6e6;
   text-decoration: underline;
 }
-.long-banner{
-  background-color:  #e6e6e6;
+.long-banner {
+  background-color: #e6e6e6;
 }
-.featured-products-meta, .new-products-meta{
+.featured-products-meta,
+.new-products-meta {
   border-bottom: 1px solid #e6e6e6;
 }
-.featured-products-meta{
-  background: url("../images/featured-product-line.png") no-repeat;
+.featured-products-meta {
+  background: url('../images/featured-product-line.png') no-repeat;
   background-position: left bottom;
 }
-.new-products-meta{
-  background: url("../images/new-product-line.png") no-repeat;
+.new-products-meta {
+  background: url('../images/new-product-line.png') no-repeat;
   background-position: left bottom;
 }
-.name{
-  font-family: "Open Sans";
+.name {
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 13px;
 }
-.product-name{
+.product-name {
   text-align: center;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: normal;
   font-size: 14px;
   color: #77787f;
 }
-.product-price{
+.product-price {
   text-align: center;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
   color: #6a6b73;
 }
-.add-to-cart{
+.add-to-cart {
   text-align: center;
 }
-.add-to-cart a{
-  font-family: "Open Sans";
+.add-to-cart a {
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
   text-decoration: none;
@@ -122,158 +116,157 @@
   display: block;
   background-color: #e6e6e6;
 }
-.add-to-cart:hover a{
+.add-to-cart:hover a {
   text-decoration: underline;
 }
-.body-mid{
+.body-mid {
   width: 100%;
   background-color: #e6e6e6;
 }
-.blogs .blog-heading{
+.blogs .blog-heading {
   border-bottom: 1px solid #b4b4b4;
 }
-.blog-name{
-  font-family: "Open Sans";
+.blog-name {
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
   color: #6a6b73;
 }
-.blog-content{
-  font-family: "Open Sans";
+.blog-content {
+  font-family: 'Open Sans';
   font-weight: normal;
   font-size: 12px;
   color: #6a6b73;
 }
-.blog-date{
-  font-family: "Open Sans";
+.blog-date {
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
   color: #6a6b73;
 }
-.blog-heading{
-  background: url("../images/blog-line.png") no-repeat;
+.blog-heading {
+  background: url('../images/blog-line.png') no-repeat;
   background-position: left bottom;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 13px;
 }
-.blogs-detail a{
+.blogs-detail a {
   text-decoration: none;
 }
-.newsletter{
+.newsletter {
   display: none;
   background-color: #e6e6e6;
 }
-.newsletter h1{
-  font-family: "Open Sans";
+.newsletter h1 {
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 32px;
 }
-.subscribe-button a{
+.subscribe-button a {
   text-decoration: none;
   display: block;
   background-color: #6a6b73;
   color: white;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
   text-align: center;
 }
-.email{
-  background-color: white; 
+.email {
+  background-color: white;
 }
-.email input{
-  background: url("../images/mail-icon.png") no-repeat;
+.email input {
+  background: url('../images/mail-icon.png') no-repeat;
   background-position: left;
   border: none;
 }
 
 /* Footer Style */
-.footer-top{
+.footer-top {
   background-color: #6a6b73;
   color: white;
 }
-.footer-top h3{
-  background: url("../images/footer-line.png") no-repeat;
+.footer-top h3 {
+  background: url('../images/footer-line.png') no-repeat;
   background-position: left bottom;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 20px;
   line-height: 50px;
 }
-.address{
-  background: url("../images/footer-home.png") no-repeat;
+.address {
+  background: url('../images/footer-home.png') no-repeat;
   background-position: left top;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
 }
-.mail-us{
-  background: url("../images/footer-send.png") no-repeat;
+.mail-us {
+  background: url('../images/footer-send.png') no-repeat;
   background-position: left top;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
 }
-.phone{
-  background: url("../images/footer-phone.png") no-repeat;
+.phone {
+  background: url('../images/footer-phone.png') no-repeat;
   background-position: left top;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
 }
-.footer-span{
-  font-family: "Open Sans";
+.footer-span {
+  font-family: 'Open Sans';
   font-weight: normal;
   font-size: 12px;
 }
-.info ul li{
-  font-family: "Open Sans";
+.info ul li {
+  font-family: 'Open Sans';
   font-weight: normal;
   font-size: 14px;
 }
-.info ul li:hover{
+.info ul li:hover {
   text-decoration: underline;
 }
-.footer-form a{
+.footer-form a {
   text-decoration: none;
   color: white;
   display: block;
   background-color: #6a6b73;
   border: 2px solid white;
   text-align: center;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
 }
-.footer-email input{
-  background: url("../images/mail-icon.png") no-repeat;
+.footer-email input {
+  background: url('../images/mail-icon.png') no-repeat;
   background-position: left;
   border: none;
   background-color: white;
 }
-.footer-bottom{
+.footer-bottom {
   background-color: #252525;
 }
-.footer-bottom-right{
-  font-family: "Gotham";
+.footer-bottom-right {
+  font-family: 'Gotham';
   font-weight: normal;
   font-size: 12px;
   color: #6a6b73;
+  text-align: center;
 }
-.social-media ul{
+.social-media ul {
   text-align: center;
   list-style: none;
 }
-.social-media ul li{
+.social-media ul li {
   display: inline-block;
 }
-.payment-option ul{
+.payment-option ul {
   text-align: center;
   list-style: none;
 }
-.payment-option ul li{
+.payment-option ul li {
   display: inline-block;
 }
-
-

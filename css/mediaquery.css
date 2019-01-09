@@ -1,99 +1,104 @@
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) {
   /* Header Layout */
-  .phone-div{
+  .phone-div {
     font-size: 12px;
   }
-  .nav-hamburger{
+  .nav-hamburger {
     display: none;
   }
-  .nav-menu a{
+  .nav-menu a {
     display: inline-block;
   }
-  .nav-menu li{
+  .nav-menu li {
     margin-left: 3px;
     display: inline-block;
   }
-  .nav-menu{
+  .nav-menu {
     font-size: 12px;
     margin-top: 0px;
     float: right;
   }
-  .search-bar{
+  .search-bar {
     font-size: 12px;
   }
-  .input-field{
+  .input-field {
     line-height: 25px;
   }
-  .mycart{
+  .mycart {
     height: 25px;
     background-size: 60px 25px;
   }
 
   /* Body Layout */
-
-  .tabs li{
-    padding-left: 5px;
-    padding-right: 5px; 
-    width: 40px;
-  }
-  .tabs li a{
+  .tabs ul a {
     font-size: 12px;
   }
-  .long-banner{
+  .long-banner {
     margin-top: 15px;
   }
-  .name{
+  .name {
     font-size: 15px;
   }
-  .blog-heading{
+  .blog-heading {
     font-size: 15px;
   }
 
   /* Footer Layout */
-  .my-account{
-    clear: none;
+  .quick-contact {
+    float: left;
+    clear: left;
   }
-  .social-media{
+  .quick-link {
+    float: left;
+    margin-left: 2%;
+  }
+  .my-account {
+    float: left;
+    margin-left: 2%;
+  }
+  .footer-newsletter {
+    float: left;
+    margin-left: 2%;
+  }
+  .social-media {
     float: left;
   }
-  .payment-option{
+  .payment-option {
     float: left;
     margin-top: 0;
     margin-left: 2%;
   }
-  .footer-bottom-right{
-    float: right;
+  .footer-bottom-right {
     margin-top: 0px;
   }
-
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   /* Header Layout */
-  .phone-div{
+  .phone-div {
     font-size: 14px;
   }
-  .nav-menu li{
+  .nav-menu li {
     margin-left: 8px;
   }
-  .nav-menu{
+  .nav-menu {
     font-size: 14px;
   }
-  .search-bar{
+  .search-bar {
     width: 170px;
     margin-top: 15px;
     font-size: 14px;
   }
-  .input-field{
+  .input-field {
     width: 150px;
   }
-  .search-btn{
+  .search-btn {
     width: 12px;
     height: 12px;
     float: right;
     margin-right: 3px;
   }
-  .mycart{
+  .mycart {
     width: 70px;
     height: 25px;
     float: right;
@@ -103,95 +108,83 @@
 
   /* Body Layout */
 
-  .tabs li{
-    padding-left: 5px;
-    padding-right: 5px; 
-    width: 60px;
+  .tabs ul a li {
     line-height: 35px;
+    width: 12%;
   }
-  .tabs li a{
+  .tabs ul a {
     font-size: 14px;
   }
-  .long-banner{
+  .long-banner {
     margin-top: 20px;
   }
-  .name{
+  .name {
     font-size: 16px;
   }
-  .left-arrow{
+  .buttons img {
+    width: 25px;
     height: 25px;
   }
-  .right-arrow{
-    height: 25px;
-  }
-  .blog{
+  .blog {
     float: left;
     margin-left: 38px;
   }
-  .blogs-detail :first-child{
+  .blogs-detail :first-child {
     margin-left: 0;
   }
-  .blog-heading{
+  .blog-heading {
     font-size: 16px;
   }
 
   /* Footer Layout */
-  .quick-link{
-    margin-left: 2%;
+  .footer-bottom-right {
+    text-align: right;
   }
-  .my-account{
-    margin-left: 2%;
-  }
-  .footer-newsletter{
-    clear: none;
-    margin-left: 2%;
-  }
-
 }
 
-@media screen and (min-width: 1250px){
+@media screen and (min-width: 1250px) {
   /* Header Layout */
-  .header-fixed{
+  .header-fixed {
     width: 1250px;
     margin: 0 auto;
   }
-  .phone-div{
+  .phone-div {
     font-size: 16px;
   }
-  .nav-menu li{
+  .nav-menu li {
     margin-left: 0px;
   }
-  .nav-menu{
+  .nav-menu {
     font-size: 14px;
   }
-  .first-nav-menu-li{
+  .first-nav-menu-li {
     margin-right: 23px;
   }
-  .second-nav-menu-li{
+  .second-nav-menu-li {
     margin-right: 20px;
-    margin-left: 28px; 
+    margin-left: 28px;
   }
-  .third-nav-menu-li{
+  .third-nav-menu-li {
     margin-right: 3px;
   }
-  .fourth-nav-menu-li{
+  .fourth-nav-menu-li {
     margin-left: 3px;
   }
-  .search-bar{
+  .search-bar {
     width: 287px;
     margin-top: 27px;
     font-size: 14px;
   }
-  .search-bar input{
+  .search-bar input {
     background-size: 145px;
     margin-left: 10px;
     font-size: 16px;
   }
-  .input-field{
+  .input-field {
     height: 46px;
     width: 233px;
   }
-  .search-btn{
+  .search-btn {
     width: 14px;
     height: 14px;
     float: right;
@@ -199,7 +192,7 @@
     margin-top: 16px;
     margin-right: 12px;
   }
-  .mycart{
+  .mycart {
     width: 118px;
     height: 43px;
     float: right;
@@ -208,175 +201,175 @@
   }
 
   /* Body Layout */
-  .body-fixed{
+  .body-fixed {
     width: 1250px;
     margin: 0 auto;
   }
-  .tabs ul{
+  .tabs ul {
     margin-top: 29px;
-    padding-left: 2px; 
+    padding-left: 2px;
   }
-  .tabs li{
-    width: 152px;
+  .tabs ul a li {
     line-height: 45px;
-    padding: 0px;
   }
-  .tabs li a{
+  .tabs ul a li {
     font-size: 16px;
   }
-  .long-banner{
+  .long-banner {
     margin-top: 24px;
   }
-  .featured-products{
+  .featured-products {
     margin-top: 13px;
   }
-  .featured-products-meta, .new-products-meta{
+  .featured-products-meta,
+  .new-products-meta {
     margin-top: 0px;
     padding-bottom: 3px;
   }
-  .name{
+  .name {
     font-size: 20px;
     line-height: 52px;
   }
-  .buttons{
+  .buttons {
     margin-top: 25px;
   }
-  .left-arrow{
-    height: 25px;
-  }
-  .right-arrow{
-    height: 25px;
-  }
-  .featured-products-details, .new-products-details{
+  .featured-products-details,
+  .new-products-details {
     margin-top: 26px;
   }
-  .featured-product, .new-product{
+  .featured-product,
+  .new-product {
     margin-top: 0px;
     margin-left: 9px;
     margin-right: 9px;
   }
-  .featured-product:first-child, .new-product:first-child{
+  .featured-product:first-child,
+  .new-product:first-child {
     margin-left: 0px;
   }
-  .featured-product:last-child, .new-product:last-child{
+  .featured-product:last-child,
+  .new-product:last-child {
     margin-right: 0px;
   }
-  .new-products{
+  .new-products {
     margin-top: 30px;
   }
-  .body-mid{
+  .body-mid {
     margin-top: 20px;
   }
-  .blogs{
+  .blogs {
     padding-top: 12px;
   }
-  .blog-image{
+  .blog-image {
     float: left;
   }
-  .blog-info{
+  .blog-info {
     float: left;
     margin-top: 2px;
     margin-left: 15px;
   }
-  .blog-name{
+  .blog-name {
     float: left;
   }
-  .blog-content{
+  .blog-content {
     margin-top: 10px;
     margin-left: 1px;
     float: left;
   }
-  .blog-date{
+  .blog-date {
     float: left;
     margin-top: 12px;
     margin-left: 2px;
   }
-  .blog-heading{
+  .blog-heading {
     font-size: 20px;
     line-height: 52px;
     padding-bottom: 5px;
   }
-  .banner ul{
+  .banner ul {
     text-align: left;
   }
-  .banner ul li{
+  .banner ul li {
     margin-top: 21px;
     margin-left: 10px;
     margin-right: 10px;
   }
-  .banner ul :first-child{
+  .banner ul :first-child {
     margin-left: 6px;
   }
-  .banner ul :last-child{
+  .banner ul :last-child {
     margin-right: 6px;
   }
-  .newsletter{
+  .newsletter {
     width: 100%;
     margin-top: 27px;
     display: block;
   }
-  .newsletter h1{
+  .newsletter h1 {
     margin-top: 30px;
     margin-bottom: 35px;
     float: left;
   }
-  .newsletter-right{
+  .newsletter-right {
     margin-top: 32px;
     float: right;
   }
-  .email input{
+  .email input {
     width: 476px;
     line-height: 49px;
   }
-  .email{
+  .email {
     padding-left: 2px;
     float: left;
   }
-  .subscribe-button{
+  .subscribe-button {
     width: 121px;
     float: right;
     line-height: 50px;
   }
-  .email input{
+  .email input {
     padding-left: 38px;
   }
 
   /* Footer Layout */
-  .quick-contact{
+  .quick-contact {
     padding-top: 45px;
   }
-  .quick-link{
+  .quick-link {
     padding-top: 45px;
     margin-left: 80px;
   }
-  .my-account{
+  .my-account {
     padding-top: 45px;
     margin-left: 145px;
   }
-  .footer-newsletter{
+  .footer-newsletter {
     padding-top: 45px;
     margin-left: 79px;
   }
-  .footer-email input{
+  .footer-email {
+    margin-top: 11px;
+  }
+  .footer-email input {
     margin-top: 18%;
   }
-  .social-media ul{
+  .social-media ul {
     margin-top: 2px;
     margin-left: 0px;
     padding-bottom: 20px;
   }
-  .social-media ul li{
+  .social-media ul li {
     margin-right: 3px;
   }
-  .payment-option{
+  .payment-option {
     margin-left: 1.5%;
   }
-  .payment-option ul{
+  .payment-option ul {
     margin-top: 2px;
     margin-left: 0px;
     text-align: none;
   }
-  .footer-bottom-right{
+  .footer-bottom-right {
     margin-top: 9px;
     margin-right: 55px;
   }

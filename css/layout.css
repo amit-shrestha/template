@@ -1,43 +1,48 @@
 /* Header Layout */
-.header-wrapper{
+.header-wrapper {
   width: 100%;
   line-height: 42px;
 }
-.header-fixed{
+.header-fixed {
   width: 93%;
   margin: 0 auto;
 }
-.phone-div{
+.phone-div {
   width: 127px;
   padding-left: 12px;
   float: left;
 }
-.nav-menu{
+.nav-menu {
   margin-top: 42px;
 }
-.nav-hamburger{
+.nav-hamburger {
   width: 12px;
   height: 12px;
   float: right;
 }
-.hamburger-btn{
+.hamburger-btn {
   width: 12px;
   height: 12px;
 }
-.search-bar{
+.search-bar {
+  line-height: 20px;
   width: 190px;
   margin-top: 10px;
   padding-left: 10px;
   float: left;
 }
-.search-btn{
+.search-bar input {
+  margin-top: 3px;
+  line-height: 20px;
+}
+.search-btn {
   width: 12px;
   height: 12px;
   float: right;
-  margin-top: 15px;
+  margin-top: 5px;
   margin-right: 3px;
 }
-.mycart{
+.mycart {
   width: 60px;
   height: 20px;
   float: right;
@@ -45,195 +50,193 @@
 }
 
 /* Body Layout */
-.body-wrapper{
+.body-wrapper {
   width: 100%;
 }
-.body-fixed{
+.body-fixed {
   width: 93%;
   margin: 0 auto;
 }
-.body-top{
+.body-top {
   margin-top: 10px;
 }
-.carousel{
+.tabs ul {
+  width: 100%;
+}
+.tabs ul a li {
+  width: 11%;
+}
+.carousel {
   width: 100%;
   background-color: #e6e6e6;
   margin: 0 auto;
 }
-.long-banner{
+.long-banner {
   width: 100%;
   height: 82px;
   margin-top: 10px;
 }
-.long-banner img{
+.long-banner img {
   max-width: 100%;
   min-height: 100%;
 }
-.name{
+.name {
   float: left;
 }
-.buttons{
+.buttons {
   float: right;
+  cursor: pointer;
 }
-.left-arrow{
+.buttons img {
+  width: 20px;
   height: 20px;
 }
-.right-arrow{
-  height: 20px;
-}
-.featured-products{
+.featured-products {
   position: relative;
   width: 100%;
   padding-bottom: 380px;
   margin-top: 10px;
   overflow: hidden;
 }
-.featured-products-details{
+.featured-products-details {
   position: absolute;
   width: 1500px;
   margin-top: 10px;
 }
-.featured-product{
+.featured-product {
   width: 234px;
   margin-right: 32px;
   margin-left: 32px;
   float: left;
   display: block;
 }
-.new-products{
+.new-products {
   position: relative;
   width: 100%;
   padding-bottom: 380px;
   margin-top: 10px;
   overflow: hidden;
 }
-.new-products-details{
+.new-products-details {
   position: absolute;
   width: 1500px;
   margin-top: 10px;
 }
-.new-product{
+.new-product {
   width: 234px;
   margin-right: 32px;
   margin-left: 32px;
   float: left;
   display: block;
 }
-.product-name{
+.product-name {
   margin-top: 10px;
 }
-.product-price{
+.product-price {
   margin-top: 9px;
 }
-.add-to-cart{
+.add-to-cart {
   width: 116px;
   line-height: 38px;
   margin: 14px auto 0px auto;
 }
-.body-mid{
+.body-mid {
   width: 100%;
   margin-top: 30px;
   padding-bottom: 26px;
 }
-.blog{
+.blog {
   margin: 0 auto;
 }
-.blogs .name{
+.blogs .name {
   width: 100%;
 }
-.blog-image{
+.blog-image {
   width: 287px;
   margin: 0 auto;
 }
-.blog-info{
+.blog-info {
   width: 290px;
   margin: 0 auto;
 }
-.blogs{
+.blogs {
   padding-top: 12px;
 }
-.blogs-detail{
+.blogs-detail {
   margin-top: 24px;
 }
-.banner ul{
+.banner ul {
   text-align: center;
   list-style: none;
 }
-.banner ul li{
+.banner ul li {
   margin-top: 10px;
   display: inline-block;
 }
 
 /* Footer Layout */
-.footer-top{
+.footer-top {
   padding-bottom: 58px;
 }
-.quick-contact{
+.quick-contact {
   padding-top: 20px;
-  float: left;
 }
-.address{
+.address {
   padding-left: 22px;
   margin-top: 25px;
 }
-.mail-us{
+.mail-us {
   padding-left: 22px;
   margin-top: 15px;
 }
-.phone{
+.phone {
   padding-left: 22px;
   margin-top: 15px;
 }
-.address h4{
+.address h4 {
   padding-bottom: 5px;
 }
-.mail-us h4{
+.mail-us h4 {
   padding-bottom: 5px;
 }
-.phone h4{
+.phone h4 {
   padding-bottom: 5px;
 }
-.quick-link{
-  float: left;
+.quick-link {
   padding-top: 20px;
 }
-.info ul{
+.info ul {
   margin-top: 15px;
 }
-.info ul li{
+.info ul li {
   list-style: none;
   line-height: 33px;
 }
-.my-account{
-  float: left;
-  clear: left;
+.my-account {
   padding-top: 20px;
 }
-.footer-newsletter{
-  float: left;
+.footer-newsletter {
+  width: 240px;
   padding-top: 20px;
-  clear: left;
 }
-.footer-email input{
+.footer-email input {
   margin-top: 15px;
-  width: 285px;
+  width: 100%;
   line-height: 38px;
   padding-left: 38px;
 }
-.footer-form a{
+.footer-form a {
   margin-top: 14px;
   line-height: 38px;
   width: 98px;
 }
-.footer-bottom-right{
+.footer-bottom-right {
+  width: 100%;
   margin-top: 10px;
-  text-align: center;
 }
-.footer-bottom-left{
+.footer-bottom-left {
   margin-top: 22px;
 }
-.payment-option{
+.payment-option {
   margin-top: 10px;
 }
-
-

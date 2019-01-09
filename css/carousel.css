@@ -1,58 +1,63 @@
-#slider-container-wrapper{
+#slider-container-wrapper {
   width: 100%;
   padding-bottom: 38%;
   position: relative;
   overflow: hidden;
   margin: 0 auto;
 }
-#slider-container{
+#slider-container {
   width: 300%;
   height: 100%;
   position: absolute;
 }
-#slider-container img{
+#slider-container img {
   float: left;
   display: block;
   width: 33.333333%;
   height: 100%;
 }
-#lbtn{
+#lbtn,
+#rbtn {
   z-index: 1;
   position: absolute;
-  height: 35px;
-  width: 54px;
+  height: 20px;
+  width: 20px;
   top: 46%;
+  cursor: pointer;
 }
-#rbtn{
-  z-index: 1;
-  position: absolute;
-  height: 35px;
-  width: 54px;
-  top: 46%;
+#rbtn {
   right: 0%;
 }
-#dots{
+#dots {
   z-index: 1;
   position: absolute;
-  top: 90%;
+  top: 80%;
   right: 44%;
+  cursor: pointer;
 }
-.dot{
-  height: 15px;
-  width: 15px;
+.dot {
+  height: 10px;
+  width: 10px;
   border-radius: 50%;
   background-color: lightgrey;
   display: inline-block;
   margin-left: 10px;
 }
-.active{
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
+.active {
   background-color: lightgreen;
-  display: inline-block;
-  margin-left: 10px;
 }
-.dot:hover, .active:hover{
+.dot:hover,
+.active:hover {
   background-color: #6a6b73;
+}
+
+@media screen and (min-width: 768px) {
+  #lbtn,
+  #rbtn {
+    width: 54px;
+    height: 30px;
+  }
+  #dots {
+    top: 90%;
+  }
 }
